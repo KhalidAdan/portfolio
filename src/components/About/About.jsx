@@ -38,15 +38,58 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                  {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  <article class="markdown-body entry-content container-lg f5" itemprop="text">
+                    <h2>
+                      Hi there, I'm Khalid! 👋🏾
+                    </h2>
+                    <p>
+                      I'm a fullstack web developer, aspiring game developer and comic book nerd. Thanks for checking out my website! Here are a couple of things about me:
+                    </p>
+                    <ul>
+                      <li>
+                        <g-emoji
+                          class="g-emoji"
+                          alias="office"
+                          fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3e2.png"
+                        >
+                          🏢
+                        </g-emoji>{' '}
+                        I work with the Canada Revenue Agency and my current role is the technical applications lead, where I run backend and architecture for my team
+                      </li>
+                      <li>
+                        <g-emoji
+                          class="g-emoji"
+                          alias="sunglasses"
+                          fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f60e.png"
+                        >
+                          😎
+                        </g-emoji>{' '}
+                        I'm currently learning the Unity and Unreal game engines
+                      </li>
+                      <li>
+                        <g-emoji
+                          class="g-emoji"
+                          alias="thinking"
+                          fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f914.png"
+                        >
+                          🤔
+                        </g-emoji>{' '}
+                        Currently trying to find interesting ways to communicate with others during
+                        the pandemic via WebRTC
+                      </li>
+                      <li>
+                        <g-emoji
+                          class="g-emoji"
+                          alias="iphone"
+                          fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4f1.png"
+                        >
+                          📱
+                        </g-emoji>{' '}
+                        Really interested in finding new ways to create more immersive experiences
+                        on the web
+                      </li>
+                    </ul>
+                  </article>
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">

@@ -2,64 +2,60 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Khalid Adan', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome!', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hey 👋🏾 My name is ',
+  name: 'Khalid Adan',
+  subtitle: 'and I am a full stack developer',
+  cta: 'Learn more',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'desk.jpg',
   paragraphOne: '',
   paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphThree: '',// if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'Yak.JPG',
+    title: 'Yak!',
+    info: 'Yak allows for Realtime video, audio, and data transmission between clients with a NodeJS signalling server. It is built using a full mesh architecture.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/KhalidAdan/Yak', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'computer.jpg',
+    title: 'Personal blog',
+    info: 'Musings on software, AI, work and life!',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://medium.com/@khalid.adan', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'grove-design.jpg',
+    title: 'Grove',
+    info: 'Grove is a simple grocery pickup app that I designed at the beginning of the 2020 pandemic. The idea is to let independent stores register to start receiving pickup orders and having one app house them all means users can look in one place for all of their grocery needs.',
+    info2: 'Designed in Figma, developed in React!',
+    repo: 'https://github.com/KhalidAdan/Grove', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
+  cta: 'Get in touch',
   btn: '',
-  email: '',
+  email: 'khalid.adan@cra-arc.gc.ca',
 };
 
 // FOOTER DATA
@@ -68,22 +64,17 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      url: 'https://twitter.com/KHVLD_',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/khalidadan/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/KhalidAdan',
     },
   ],
 };

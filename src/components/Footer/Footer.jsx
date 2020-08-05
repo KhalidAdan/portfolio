@@ -9,7 +9,7 @@ import { githubButtons } from '../../mock/data';
 const Footer = () => {
   const { footer } = useContext(PortfolioContext);
   const { networks } = footer;
-  const { isEnabled } = githubButtons;
+  const { isEnabled } = false;
 
   return (
     <footer className="footer navbar-static-bottom">
@@ -41,7 +41,7 @@ const Footer = () => {
           © {new Date().getFullYear()} - Template developed by{' '}
           <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
             Jacobo Martínez
-          </a>
+          </a> - Modified by Khalid Adan
         </p>
 
         {isEnabled && <GithubButtons />}
